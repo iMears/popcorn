@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+ruby '2.1.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
@@ -27,6 +28,7 @@ gem 'responders', '~> 2.0'
 gem 'open-weather'
 gem 'dotenv-rails', :require => 'dotenv/rails-now'
 gem 'awesome_print'
+gem 'rails_12factor'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
