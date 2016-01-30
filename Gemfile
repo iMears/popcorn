@@ -24,6 +24,9 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'twilio-ruby', '~> 4.2.1'
 gem 'responders', '~> 2.0'
+gem 'open-weather'
+gem 'dotenv-rails', :require => 'dotenv/rails-now'
+gem 'awesome_print'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
